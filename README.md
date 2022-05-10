@@ -7,10 +7,19 @@ This Submod was primarily created for [Monika on Desktop](https://github.com/SAn
 ## How to Use:
 To access the Persistent Data read the file at 
 - Windows:
-- - `%APPDATA%\RenPy\Monika After Story\pdread.bin`
+- - `%APPDATA%\RenPy\Monika After Story\pdread.json`
 - MacOS:
-- - `~/Library/RenPy/Monika After Story\pdread.bin`
+- - `~/Library/RenPy/Monika After Story\pdread.json`
 - Linux:
-- - `~/.renpy/Monika After Story\pdread.bin`
+- - `~/.renpy/Monika After Story\pdread.json`
 
 as a JSON.
+
+## Known Issues:
+- Some Variables can't be exported yet.
+- - event_database
+- - farewell_database
+- - greeting_database
+- - _mas_apology_database
+- - _mas_undo_action_rules
+- - _mas_strip_dates_rules
