@@ -40,7 +40,7 @@ init python:
         'pd_masChessDifficulty': persistent._mas_chess_difficulty,
         'pd_masChessQuicksave': persistent._mas_chess_quicksave,
         'pd_masChessDlgAction': persistent._mas_chess_dlg_action,
-        'pd_masChessTimedDisable': persistent._mas_chess_timed_disable,
+        'pd_masChessTimedDisable': "NOT_AVAILABLE", # persistent._mas_chess_timed_disable,
         'pd_masChess3EditSorry': persistent._mas_chess_3_edit_sorry,
         'pd_masChessMangleAll': persistent._mas_chess_mangle_all,
         'pd_masChessSkipFileChecks': persistent._mas_chess_skip_file_checks,
@@ -143,8 +143,10 @@ init python:
         ## script-songs.rpy - 12th of May 2022
         'pd_masSongDatabase': "NOT_AVAILABLE", # persistent._mas_songs_database
         ## special-effects.rpy - 12th of May 2022
-        'pd_masFirstKiss': persistent._mas_first_kiss,
-        'pd_masLastKiss': persistent._mas_last_kiss,
+        'pd_masFirstKiss': "NOT_AVAILABLE", # persistent._mas_first_kiss,
+        'pd_masFisrtKissBool': bool(persistent._mas_first_kiss),
+        'pd_masLastKiss': "NOT_AVAILABLE", # persistent._mas_last_kiss,
+        'pd_masLastKissBool': bool(persistent._mas_last_kiss),
     ## sprite-chart.rpy - COMING SOON
         ## styles.rpy - 12th of May 2022
         'pd_masDarkModeEnabled': persistent._mas_dark_mode_enabled,
@@ -167,8 +169,8 @@ init python:
         ## zz_dockingstation.rpy - 12th of May 2022
         'pd_masPmTakenMonikaOut': persistent._mas_pm_taken_monika_out,
         'pd_masMoniChksum': persistent._mas_moni_chksum,
-        'pd_masDockstatCheckoutLog': persistent._mas_dockstat_checkout_log,
-        'pd_masDockstatCheckinLog': persistent._mas_dockstat_checkin_log,
+        'pd_masDockstatCheckoutLog': "NOT_AVAILABLE", # persistent._mas_dockstat_checkout_log,
+        'pd_masDockstatCheckinLog': "NOT_AVAILABLE", # persistent._mas_dockstat_checkin_log,
         'pd_masDockstatMoniLog': "NOT_AVAILABLE", # persistent._mas_dockstat_moni_log
         'pd_masDockstatGoingToLeave': persistent._mas_dockstat_going_to_leave,
         'pd_masDockstatMoniSize': persistent._mas_dockstat_moni_size,
@@ -200,7 +202,7 @@ init python:
         'pd_masSelsprClothesDb': "NOT_AVAILABLE", # persistent._mas_selspr_clothes_db
         'pd_masSettingOcb': persistent._mas_setting_ocb,
         ## zz_spritejson.rpy - 12th of May 2022
-        'pd_masSpritesJsonGiftedSprites': persistent._mas_sprites_json_gifted_sprites,
+        'pd_masSpritesJsonGiftedSprites': "NOT_AVAILABLE", # persistent._mas_sprites_json_gifted_sprites,
         ## zz_spriteobjects.rpy - 12th of May 2022
         'pd_masAcsEnableQuetzalplushie': persistent._mas_acs_enable_quetzalplushie,
         'pd_masAcsEnablePromisering': persistent._mas_acs_enable_promisering,
