@@ -42,6 +42,7 @@ as a JSON.
 - - _mas_submod_version_data
 - - _mas_date_last_checked_rain
 - - _mas_windowreacts_database
+- - _mas_windowreacts_notif_filters
 - Some Scripts are  not implemented yet
 - - script-holidays.rpy
 - - sprite-chart.rpy
