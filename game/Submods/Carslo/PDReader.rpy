@@ -222,7 +222,8 @@ init python:
         'pd_masWindowsReactsNotifFilters': "NOT_AVAILABLE", # persistent._mas_windowreacts_notif_filters
         '0generatedAt': pd_time.time(),
         '0madeBy': "Carslo_45",
-        '0submodVersion': "0.5.1"
+        '0submodVersion': "0.5.1",
+        "1gamePath": config.basedir
         ## Submod Implementations: Maybe Soon.
         }
 
