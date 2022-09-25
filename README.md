@@ -10,7 +10,7 @@ If you get an Error please create an Issue
 This Submod was primarily created for
 [Monika on Desktop](https://github.com/SAn4Es-TV/MonikaOnDesktop) made by [SAn4Es-TV](https://github.com/SAn4Es-TV)
 
-## How to Use:
+## How to Use
 
 To access the Persistent Data the file is located here:
 
