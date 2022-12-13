@@ -1,10 +1,10 @@
 init -990 python:
     store.mas_submod_utils.Submod(
         author="Carslo_45",
-        name="Persistent Data Reader_N",
+        name="Persistent Data Reader",
         description="A Submod to access the Persistent Data (READ-ONLY)",
-        version="0.6.0",
-        settings_pane="PDReaderSettingsPanel"
+        version="0.6.1"#,
+        #settings_pane="PDReaderSettingsPanel"
     )
 init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
@@ -223,7 +223,7 @@ init python:
         ## custom.extension
         '0generatedAt': pd_time.time(),
         '0madeBy': "Carslo_45",
-        '0submodVersion': "0.5.1",
+        '0submodVersion': "0.6.1",
         "1gamePath": config.basedir
         ## Submod Implementations: Maybe Soon.
         }
